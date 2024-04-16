@@ -24,9 +24,7 @@ function App() {
             <Sidebar hide={eventResult} />
 
             <main className="flex-1 p-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2 p-2">
-                    <Outlet />
-                </div>
+                <Outlet />
             </main>
 
           </div>
