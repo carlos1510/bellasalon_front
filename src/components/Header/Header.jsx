@@ -39,15 +39,13 @@ function Header({onClick}){
                 </button>
                 <ul className={hideDrop?'origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5':'origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden'}>
                     <li>
-                        <Link href="#" className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-[#f84525] hover:bg-gray-50">Profile</Link>
+                        <Link href="#" className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-[#f84525] hover:bg-gray-50">Perfil</Link>
                     </li>
-                    <li>
-                        <Link href="#" className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-[#f84525] hover:bg-gray-50">Settings</Link>
-                    </li>
+                    
                     <li>
                         <Form method="POST" action="">
                             <a role="menuitem" className="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-[#f84525] hover:bg-gray-50 cursor-pointer" >
-                                Log Out
+                                Cerrar Sesión
                             </a>
                         </Form>
                     </li>

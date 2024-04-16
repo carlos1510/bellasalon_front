@@ -6,12 +6,12 @@ function Usuario(){
             <div className="grid mt-2 p-2">
                   <div className="bg-white p-4 rounded-md mt-2">
                     <div className="grid grid-cols-2">
-                    <h2 className="text-gray-500 text-lg font-semibold pb-4">Lista</h2>
-                    <div className="text-right">
-                        <button className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-2 px-4 rounded">
-                            <i className="fas fa-plus-circle"></i> Agregar
-                        </button>
-                    </div>
+                        <h2 className="text-gray-500 text-lg font-semibold pb-4">Lista</h2>
+                        <div className="text-right">
+                            <button className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-2 px-4 rounded">
+                                <i className="fas fa-plus-circle"></i> Agregar
+                            </button>
+                        </div>
                     </div>
                     <div className="my-1"></div> 
                     <div className="bg-gradient-to-r from-cyan-300 to-cyan-500 h-px mb-6"></div> 

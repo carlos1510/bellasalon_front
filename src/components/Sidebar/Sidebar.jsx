@@ -18,9 +18,7 @@ function Sidebar({hide}){
                         <i className="fas fa-users mr-2"></i> <span className="hidden sm:inline">Usuarios</span> 
                     </Link>
 
-                    <Link to="" className="block text-center sm:text-left text-gray-500 py-2.5 px-4 my-4 rounded transition duration-200 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-300 hover:text-white">
-                        <i className="fas fa-chart-line mr-2"></i> <span className="hidden sm:inline">Reportes</span> 
-                    </Link>
+                    
                 </nav>
 
 
