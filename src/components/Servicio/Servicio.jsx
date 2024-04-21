@@ -17,7 +17,7 @@ function Servicio(){
 
     return (
         <>  {register ? (
-            <div className="bg-white p-4 rounded-md mt-4">
+            <div className="bg-white p-4 rounded-md mt-4 shadow border border-gray-300  border-solid">
                 <h2 className="text-gray-500 text-lg font-semibold pb-4">Registro</h2>
                 <div className="my-1"></div> 
                 <div className="bg-gradient-to-r from-cyan-300 to-cyan-500 h-px mb-6"></div> 
@@ -81,11 +81,12 @@ function Servicio(){
                             <input type="text" className="w-full px-3 py-2 dark:bg-gray-900 rounded-sm border dark:border-none border-gray-300  border-solid " />
                         </div>
                     </div>
+
                     <h4 className="mt-3 text-gray-500 text-lg font-semibold pb-4">ESTA INFORMACION ES ESTRICTAMENTE CONFIDENCIAL: (Marca con una X)</h4>
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Te encuentras en estado de Gestación?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Te encuentras en estado de Gestación?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -101,7 +102,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Eres alérgica a la anestesia?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Eres alérgica a la anestesia?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -117,7 +118,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Tienes algún trastorno con la coagulación?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Tienes algún trastorno con la coagulación?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -133,7 +134,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Es usted nerviosa?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Es usted nerviosa?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -149,7 +150,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Has tenido hepatitis?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Has tenido hepatitis?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -165,7 +166,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Presenta problemas con la pigmentación?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Presenta problemas con la pigmentación?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -181,7 +182,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Presenta problemas de la piel?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Presenta problemas de la piel?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -197,7 +198,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Presenta problemas de cicatrización?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Presenta problemas de cicatrización?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -213,7 +214,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Se ha realizado alguna intervención quirúrgica?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Se ha realizado alguna intervención quirúrgica?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -229,7 +230,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 ">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Es usted nerviosa?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Es usted nerviosa?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -253,7 +254,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Anteriormente se ha realizado Maquillaje permanente?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Anteriormente se ha realizado Maquillaje permanente?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -269,7 +270,7 @@ function Servicio(){
 
                     <div className="grid grid-cols-2 mb-2">
                         <div className="ml-2 mr-2">
-                            <label htmlFor=""><i class="far fa-circle"></i> Se ha realizado algún tatuaje?</label>
+                            <label htmlFor=""><i class="far fa-hand-point-right"></i> Se ha realizado algún tatuaje?</label>
                         </div>
                         <div className="ml-2 mr-2">
                             <label htmlFor="" className="ml-4 mr-4">
@@ -280,6 +281,86 @@ function Servicio(){
                                 NO
                                 <input type="radio" className="ml-2 mr-2" name="" id="" />
                             </label>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 mt-5">
+                        <div className="ml-2 mr-2">
+                            <h4 className=" mb-3 text-gray-500 text-lg font-semibold pb-4">MEDIO INFORMATIVO POR EL CUAL SE HA ENTERADO DE NUESTROS SERVICIOS:</h4>
+                            <input type="text" className="w-full px-3 py-2 dark:bg-gray-900 rounded-sm border dark:border-none border-gray-300  border-solid " />
+                        </div>
+                    </div>
+
+                    <h4 className=" mb-3 mt-5 text-gray-500 text-lg font-semibold ">MARCA CON UNA X EL PROCEDIMIENTO QUE DESEA REALIZARSE:</h4>
+
+                    <div className="grid grid-cols-1 mt-5">
+                        <div className="ml-2 mb-3">
+                            <label htmlFor="" className="ml-4 mr-4">
+                                <i class="far fa-hand-point-right"></i> Delineado de cejas 
+                                <input type="checkbox" className="ml-2 mr-2" name="" id="" />
+                            </label>
+                        </div>
+
+                        <div className="ml-2 mb-3">
+                            <label htmlFor="" className="ml-4 mr-4">
+                                <i class="far fa-hand-point-right"></i> Delineado superior de ojos  
+                                <input type="checkbox" className="ml-2 mr-2" name="" id="" />
+                            </label>
+                        </div>
+
+                        <div className="ml-2 mb-3">
+                            <label htmlFor="" className="ml-4 mr-4">
+                                <i class="far fa-hand-point-right"></i> Delineado inferior de ojos  
+                                <input type="checkbox" className="ml-2 mr-2" name="" id="" />
+                            </label>
+                        </div>
+
+                        <div className="ml-2 mb-3">
+                            <label htmlFor="" className="ml-4 mr-4">
+                                <i class="far fa-hand-point-right"></i> Delineado de labios   
+                                <input type="checkbox" className="ml-2 mr-2" name="" id="" />
+                            </label>
+                        </div>
+
+                        <div className="ml-2 mb-3">
+                            <label htmlFor="" className="ml-4 mr-4">
+                                <i class="far fa-hand-point-right"></i> Permanente de pestañas 
+                                <input type="checkbox" className="ml-2 mr-2" name="" id="" />
+                            </label>
+                        </div> 
+                        <div className="ml-2 mb-3">
+                            <label htmlFor="" className="ml-4 mr-4"><i class="far fa-hand-point-right"></i> Otros</label>
+                            <input type="text" className="w-1/2 px-3 py-2 dark:bg-gray-900 rounded-sm border dark:border-none border-gray-300  border-solid" name="" id="" />
+                        </div>
+                    </div>
+
+                    <h4 className=" mb-3 mt-5 text-gray-500 text-lg font-semibold ">SABIENDO TODO EL PROCEDIMIENTO PREVIA CONSULTA, ACCEDO AL PROCEDIMIENTO RESPECTIVO:</h4>
+
+                    <div className="grid grid-cols-2 mt-5">
+                        <div className="ml-2 mr-2">
+                            <label htmlFor="">PIGNMENTOS</label>
+                            <textarea name="" id="" cols="30" rows="10" className="w-full px-3 py-2 rounded-sm border dark:border-none border-gray-300  border-solid "></textarea>
+                        </div>
+                        <div className="ml-2 mr-2">
+                            <label htmlFor="">RETOQUE</label>
+                            <textarea name="" id="" cols="30" rows="10" className="w-full px-3 py-2 rounded-sm border dark:border-none border-gray-300  border-solid "></textarea>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 mt-2">
+                        <div className="ml-2 mr-2">
+                            <label htmlFor="">CANCELÓ FECHA</label>
+                            <input type="text" className="w-full px-3 py-2  rounded-sm border dark:border-none border-gray-300  border-solid " />
+                        </div>
+                        <div className="ml-2 mr-2">
+                            <label htmlFor="">MONTO</label>
+                            <input type="text" className="w-full px-3 py-2  rounded-sm border dark:border-none border-gray-300  border-solid " />
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-1 mt-2">
+                    <div className="ml-2 mr-2">
+                            <label htmlFor="">OBSERVACIONES:</label>
+                            <textarea name="" id="" cols="30" rows="10" className="w-full px-3 py-2  rounded-sm border dark:border-none border-gray-300  border-solid "></textarea>
                         </div>
                     </div>
                 </Form>

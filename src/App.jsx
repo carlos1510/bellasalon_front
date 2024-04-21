@@ -15,15 +15,15 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col h-screen bg-gray-100">
+      <div className="flex flex-col h-screen ">
 
             <Header onClick={handleChildClick} />
 
-          <div className="flex-1 flex">
+          <div className="flex-1 flex ">
 
             <Sidebar hide={eventResult} />
 
-            <main className="flex-1 p-4">
+            <main className="flex-1 p-4 ">
                 <Outlet />
             </main>
 

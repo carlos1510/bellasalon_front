@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Sidebar({hide}){
     
     return (
-        <div className={hide ? "p-2 bg-white w-60 flex flex-col md:flex" : "p-2 bg-white w-60 flex flex-col hidden md:flex"} id="sideNav">
+        <div className={hide ? "p-2 bg-gray-200 w-60 flex flex-col md:flex" : "p-2 bg-gray-200 w-60 flex flex-col hidden md:flex"} id="sideNav">
                 <nav>
                     <Link to="/" className="block text-center sm:text-left text-gray-500 py-2.5 px-4 my-4 rounded transition duration-200 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-300 hover:text-white">
                         <i className="fas fa-home mr-2 text-center"></i> <span className="hidden sm:inline">Inicio</span>
